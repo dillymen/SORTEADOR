@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="./assets/dado.png" alt="logo-sorterio" />
+            <h1 class="page-name">DevSorteio</h1>
+        </header>
+
+        <div>
+            <h3>Sortear um número</h3>
+            
+            <section>
+                <input class="min-input" placeholder="Entre" type="number" />
+                <input class="max-input" placeholder="E" type="number" />
+                <input class="input-result" placeholder="Resultado">
+               
+            </section>
+
+            <button onclick="generateNumber()">Sortear</button>
+
+        </div>
+
+    </main>
+
+</body>
+
+
+</html>
